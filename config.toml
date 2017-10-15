@@ -1,54 +1,27 @@
 baseurl = "https://moll.ninja/"
+languageCode = "en-US"
 title = "Miguel Moll"
-languageCode = "en-us"
-theme = "hugo-identity-theme"
-copyright = "&copy; 2016. All rights reserved."
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
 
 [params]
+  avatar = "profilepic.jpg"
+  author = "Miguel Moll"
+  description = "dsadfsDescribe your website"
 
-	# Images settings
-	# Icons, backgrounds and avatars folders are placed in theme's static/images folder.
-	# You may place your images in corresponding folders and then set only filenames below to
-	# change page's appearance
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
 
-	favicon = "favicon.ico"
-	appletouchicon = "favicon.ico"
-	background = "bm3.jpg"
-	avatar = "profilepic.jpg"
-
-	# Personal settings
-
-    name = "Miguel Moll"
-	  position = "Software Developer. System Administrator. Hobbyist Game Developer."
-
-	# Social settings
-	# You may change these with your social links or add others
-
-  [[params.social]]
-    title = "Blog"
-    icon = "fa-pencil-square-o"
-    link = "https://miguel.moll.ninja"
-
-  [[params.social]]
-    title = "GitHub"
-    icon = "fa-github"
-    link = "https://github.com/MiguelMoll/"
-
-  [[params.social]]
-  title = "LinkedIn"
-  icon = "fa-linkedin"
-  link = "https://www.linkedin.com/in/miguelmoll"
-
-  [[params.social]]
-    title = "Twitter"
-    icon = "fa-twitter"
-    link = "https://twitter.com/radioact1ve"
-
-  [[params.social]]
-    title = "Google+"
-    icon = "fa-google-plus"
-    link = "https://plus.google.com/+MiguelMoll"
-
-  # Footer settings
-  [params.footer]
-  copyright = "Miguel Moll"
+[params.social]
+  Link        = "https://miguel.moll.ninja"
+  Github        = "MiguelMoll"
+  Email         = "miguel AT moll DOT ninja"
+  Twitter       = "radioact1ve"
+  LinkedIn      = "miguelmoll"
